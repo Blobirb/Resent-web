@@ -47,7 +47,7 @@
 
     <div id="Selection">
       <div background-color: light-grey;>
-        <h1>Resent Client</h1>
+        <h1>Quag Client</h1>
       </div>
       <h3>Select a texture pack:</h3>
       <br />
@@ -177,6 +177,11 @@
               serverWorkerURI: "worker_bootstrap.js",
               worldsFolder: "MAIN",
               servers: [
+		{
+                  serverName: "School SMP",
+                  serverAddress: "wss://sussyserver.blobirb69.repl.co/server",
+                  hideAddress: true,
+                },
                 {
                   serverName: "Blobcraft",
                   serverAddress: "wss://blobcraft.minecraft.pe",
@@ -191,7 +196,7 @@
                   serverName: "Hyper Network",
                   serverAddress: "wss://hyper-network.me",
                   hideAddress: true,
-                },
+                },     
               ],
               relays: [
                 {
